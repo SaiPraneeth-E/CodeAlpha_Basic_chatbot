@@ -1,0 +1,100 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["My pleasure", "You're Welcome"],
+            "context": [""]
+        },
+        {
+            "tag": "math_formulas",
+            "patterns": ["Tell me a math formula", "What are important math formulas?", "Give me a formula", "Show me a math formula"],
+            "responses": [
+                "Here are some important mathematical formulas:\n\n1. Quadratic Formula: x = (-b ± √(b²-4ac)) / 2a\n\n2. Pythagorean Theorem: a² + b² = c²\n\n3. Area of a Circle: A = πr²\n\n4. Slope of a Line: m = (y₂ - y₁) / (x₂ - x₁)\n\n5. Compound Interest Formula: A = P(1 + r/n)^(nt)",
+                "Here are a few key formulas:\n\n1. Distance Formula: d = √((x₂ - x₁)² + (y₂ - y₁)²)\n\n2. Volume of a Sphere: V = 4/3πr³\n\n3. Euler's Formula (Complex Analysis): e^(iπ) + 1 = 0",
+                "Some common formulas are:\n\n1. Sine Rule (Trigonometry): a/sinA = b/sinB = c/sinC\n\n2. Logarithm Formula: logb(x) = y if b^y = x\n\n3. Integration by Parts: ∫u dv = uv - ∫v du"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "geometry_formulas",
+            "patterns": ["Tell me a geometry formula", "What are important geometry formulas?", "Show me a geometry formula"],
+            "responses": [
+                "Here are some important geometry formulas:\n\n1. Area of a Triangle: A = 1/2 * base * height\n\n2. Volume of a Cylinder: V = πr²h\n\n3. Surface Area of a Sphere: A = 4πr²",
+                "Some key geometry formulas:\n\n1. Perimeter of a Rectangle: P = 2(l + w)\n\n2. Area of a Trapezoid: A = 1/2 * (b₁ + b₂) * height\n\n3. Volume of a Cone: V = 1/3πr²h"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "algebra_formulas",
+            "patterns": ["Tell me an algebra formula", "What are important algebra formulas?", "Give me an algebra formula"],
+            "responses": [
+                "Some key algebra formulas include:\n\n1. Quadratic Formula: x = (-b ± √(b²-4ac)) / 2a\n\n2. Difference of Squares: a² - b² = (a - b)(a + b)\n\n3. Exponential Growth: y = ab^x",
+                "Here are some important algebra formulas:\n\n1. Sum of an Arithmetic Series: Sₙ = n/2 * (a + l)\n\n2. Binomial Expansion: (a + b)ⁿ = Σ (nCk) * a^(n-k) * b^k\n\n3. Factorization: ax² + bx + c = (px + q)(rx + s)"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "human_anatomy_general",
+            "patterns": ["Tell me about human anatomy", "What is human anatomy?", "Give me an overview of human anatomy"],
+            "responses": [
+                "Human anatomy is the study of the structure of the human body. It involves understanding how organs, tissues, bones, and muscles function together.",
+                "The human body is divided into several systems, including the skeletal, muscular, cardiovascular, respiratory, digestive, and nervous systems.",
+                "Human anatomy helps us understand how different parts of the body work and how they are interconnected, from cells to organs to the whole organism."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "skeletal_system",
+            "patterns": ["Tell me about the skeletal system", "What is the skeletal system?", "How many bones are in the human body?"],
+            "responses": [
+                "The skeletal system provides support, protection, and movement to the human body. It consists of 206 bones in adults.",
+                "The skeletal system also produces blood cells and stores important minerals like calcium. Major bones include the femur, skull, spine, and ribs.",
+                "Joints, ligaments, and cartilage are part of the skeletal system, allowing movement and flexibility."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "muscular_system",
+            "patterns": ["Tell me about the muscular system", "What is the muscular system?", "How do muscles work?"],
+            "responses": [
+                "The muscular system is responsible for movement, posture, and generating heat. It includes over 600 muscles in the body.",
+                "Muscles are classified into three types: skeletal, smooth, and cardiac. Skeletal muscles control voluntary movement, smooth muscles control involuntary actions, and cardiac muscles power the heart.",
+                "Muscles work by contracting and relaxing in response to signals from the nervous system."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "nervous_system",
+            "patterns": ["Tell me about the nervous system", "What is the nervous system?", "How does the brain work?"],
+            "responses": [
+                "The nervous system controls and coordinates body activities by sending signals between the brain, spinal cord, and nerves.",
+                "It is divided into two parts: the central nervous system (CNS), consisting of the brain and spinal cord, and the peripheral nervous system (PNS), which includes nerves that branch out to the rest of the body.",
+                "The brain is the control center of the nervous system, processing information from sensory inputs and sending instructions to muscles and organs."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "circulatory_system",
+            "patterns": ["Tell me about the circulatory system", "What is the circulatory system?", "How does the heart work?"],
+            "responses": [
+                "The circulatory system is responsible for transporting blood, oxygen, and nutrients throughout the body. It consists of the heart, blood vessels, and blood.",
+                "The heart pumps blood through arteries, veins, and capillaries, ensuring that oxygen-rich blood reaches tissues and organs.",
+                "This system plays a crucial role in maintaining homeostasis, delivering essential substances to cells, and removing waste products."
+            ],
+            "context": [""]
+        }
+    ]
+}
