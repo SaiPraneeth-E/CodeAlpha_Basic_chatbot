@@ -29,8 +29,6 @@ def bag_of_words(sentence):
             if word == w:
                 bag[i] = 1
     return np.array(bag)
-
-# Function to predict the class of the input sentence
 def predicts(sentence):
     bow = bag_of_words(sentence)
     res = model.predict(np.array([bow]))[0]
@@ -50,10 +48,7 @@ def get_response(intents_list, intents_json):
             if i['tag'] == tag:
                 return random.choice(i['responses'])
     return "I didn't understand that."
-
-# Main loop for chatbot interaction
 print("GO! Bot is running!")
-
 while True:
     info = input("You: ")
     if info.lower() == "exit":
